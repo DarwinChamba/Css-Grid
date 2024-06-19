@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+}
+ul,menu{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+}
+a{
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  margin: 0 40px;
+  padding: 3px;
+}
+ul{
+  height: 80px;
+  background-color: #1E2D3B;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+a:hover{
+  color: yellow;
+}
+.logo{
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+.contenedor-principal{
+  background-color: aqua;
+  display: flex;
+  
+
+}
+.logo{
+  flex-grow: 1;
+
+}
+menu{
+  flex-grow: 2;
+}
+p{
+  
+  width: 200px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+  font-weight: 700;
+  
+  
+}
+
+.servicios{
+   color: #1E2D3B;
+   margin: auto 0;
+   text-align: center;
+   margin: 50px 0  15px 40px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   font-size: 3rem;
+  
+   
+}
+hr{
+  width: 100px;
+  height: 6px;
+  background-color: yellow;
+  margin: 0 auto;
+  
+}
+/*imagen fondo*/
+.imagen-fondo {
+  background-image: url(imagenes/imagen\ fondo.png); /* Assuming the correct image path */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.primer-parrafo {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  width: 690px;
+}
+.imagen-flecha-abajo{
+  margin-top: 40px;
+}
+
+
+/*style en imagnes titulos y parrafos*/
+.contenido-uno{
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: rgb(234, 236, 236);
+  justify-content: space-evenly;
+}
+.titulo-imagenes{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #1d5287;
+  margin: 20px 0;
+  text-align: center;
+  width: 328px;
+}
+.parrafo-imagenes{
+  text-align: justify;
+  width: 318px;
+  font-family: 'Courier New', Courier, monospace;
+  row-gap: 4px;
+}
+/*styled from year and text*/
+.titulo-fechas{
+color: #3D5975;
+width: 300px;
+font-size: 3rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 700;
+text-align: center;
+
+}
+.parrafo-fechas{
+color: #3D5975;
+width: 300px;
+text-align: center;
+text-align: center;
+}
+
+.year-and-text{
+  background-color: yellow;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 40px;
+  
+}
+/*style from project and line hr*/
+.titulo-proyecto{
+  
+  text-align: center;
+  color: #1E2D3B;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 20px 0  20px 0;
+}
+
+/*style carrusel imagenes*/
+
+.carrusel-imagenes {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  gap: 20px;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.imagenCarrusel {
+  width: 45%;
+}
+
+.textoImagen {
+  display: none; /* Oculta el texto inicialmente */
+  position: absolute; /* Posicionamiento absoluto */
+  top: 0; /* Posicionamiento vertical desde el borde superior */
+  left: 0; /* Posicionamiento horizontal desde el borde izquierdo */
+  width: 100%; /* Ancho del texto */
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con transparencia */
+  color: rgb(210, 24, 24); /* Color del texto */
+  padding: 10px; /* Espacio alrededor del texto */
+  text-align: center; /* Alineación del texto */
+
+}
+
+.imagenCarrusel:hover + .textoImagen {
+  display: block;
+  opacity: 1;
+}

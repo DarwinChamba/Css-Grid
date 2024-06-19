@@ -1,0 +1,87 @@
+
+.footer{
+    background-color: rgb(241, 27, 216);
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+}
+.compania , .ayuda , .tienda{
+    width: 100%;
+}
+
+
+.lista__compania ,.lista__tienda , .lista_ayuda{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    gap: 5px;
+    justify-content: space-evenly;
+    
+}
+li:nth-child(1){
+    border-bottom: 5px solid rgb(214, 11, 11);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    padding-bottom: 10px;
+    margin: 0px 10px 0px 10px;
+}
+@media (min-width:494px){
+    .lista__tienda {
+        min-height: 100px;
+        display: flex;
+        flex-flow: row wrap;
+        background-color: bisque;
+    }
+    .lista_ayuda{
+        min-height: 100px;
+        display: flex;
+        flex-flow: row wrap;
+        background-color: rgb(71, 199, 84);
+    }
+    .lista__tienda >li ,.lista_ayuda>li{
+        width: 40%;
+    }
+}
+@media (min-width:900px){
+    .footer{
+        display: flex;
+        width: 100%;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: blue;
+        text-align: center;
+    }
+    li{
+        width: 100%;
+        padding: 10px;
+
+    }
+    .compania{
+        width: 33.3%;
+    }
+    .lista__compania{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ayuda{
+        width: 33%;
+    }
+    .lista_ayuda{
+       align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .tienda{
+        width: 33%;
+    }
+    .lista__tienda{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

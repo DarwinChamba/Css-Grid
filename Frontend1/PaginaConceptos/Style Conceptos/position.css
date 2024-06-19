@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+header{
+    
+    height: 100vh;
+    background-color: antiquewhite;
+    text-align: center;
+    background-image: url(../../images/image_manos_multiple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    position: relative;
+
+    
+}
+header > div{
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+div >h1{
+    
+    font-size: 2rem;
+    color: white;
+    
+    
+}
+div > img{
+    display: inline-block;
+    
+}
+header > div >p{
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+}

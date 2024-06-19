@@ -1,0 +1,36 @@
+.textoImagen{
+  display: none;
+}
+.imagenCarrusel{
+  width: 45%;
+}
+.carrusel-imagenes{
+  width: 80%;
+  margin: 0 auto;
+  background-color: aqua;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.textoImagen{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  
+  transition: opacity 0.3s ease;
+
+}
+img:hover + p{
+background-color: aqua;
+}
+
+

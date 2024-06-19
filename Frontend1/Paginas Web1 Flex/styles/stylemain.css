@@ -1,0 +1,16 @@
+@import url(colores.css);
+@import url(comun.css);
+@import url(header.css);
+@import url(nav.css);
+@import url(card1.css);
+@import url(main.css);
+@import url(footer.css);
+@import url(flipcard.css);
+
+
+@media (max-width:600px) {
+    .contenedorPrincipal{
+        flex-direction: column;
+    }
+    
+}

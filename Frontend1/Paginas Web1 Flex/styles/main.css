@@ -1,0 +1,59 @@
+.contenedorPrincipal{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main{
+    flex: 70%;
+   
+    
+}
+article , .mdetalles{
+    width: 80%;
+    margin: 0 auto;
+   border: 1px solid transparent;
+    
+    
+}
+
+.main h2{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.main p{
+    margin: 10px;
+}
+.main img{
+    width:100%;
+    height: 200px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.contenedorPrincipal{
+    background-color: bisque;
+}
+.main .readMore{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.main .readMore:hover{
+    background-color: white;
+    color: blue;
+
+}
+.detalles{
+    margin-top: 10px;
+    text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 2rem;
+   font-weight: 700;
+   background-color: azure;
+    padding: 10px;
+}

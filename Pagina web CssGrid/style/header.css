@@ -1,0 +1,37 @@
+.imagenEncabezado{
+    height: 400px;
+    background-image: url(../../imagenes/image_Developer.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.miInformacion{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translateY(-50%);
+    margin: 0px 30px;
+}
+.miInformacion h2{
+    color: white;
+    margin: 5px;
+    font-size: 2rem;
+}
+.miInformacion p{
+    color: white;
+    margin: 5px;
+    font-size: 2rem;
+}
+@media(max-width:600px){
+    .miInformacion p,.miInformacion h2{
+        font-size: 5vw;
+
+    }
+}

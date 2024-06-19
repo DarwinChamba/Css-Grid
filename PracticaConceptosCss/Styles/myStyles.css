@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: black;
+    perspective: 800px;
+}
+menu{
+    height: 300px;
+    width: 400px;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    background-color: red;
+    height: 100%;
+}
+.redes{
+    background-color: antiquewhite;
+    height: 90%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+}
+
+i{
+    
+    font-size: 50px;
+    background-color: red;
+}
+
+li{
+    list-style-type: none;
+    background-color: aquamarine;
+}

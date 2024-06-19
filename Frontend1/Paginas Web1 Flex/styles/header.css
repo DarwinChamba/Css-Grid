@@ -1,0 +1,33 @@
+
+header{
+    text-align: center;
+    background-color: aqua;
+    background-image: url(../../images/image_header.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    padding: 60px;
+    height: 100vh;
+    position: relative;
+    
+}
+header > div{
+
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 50%;
+    right: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+   width: 90%;
+    transform: translateY(-50%);
+}
+header > div >h1{
+    color: white;
+    font-size: 2rem;
+}
+header > div >p{
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+}

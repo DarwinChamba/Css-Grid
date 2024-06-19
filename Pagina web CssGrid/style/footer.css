@@ -1,0 +1,20 @@
+.contactoTitulo,.redesSociales{
+    grid-column: 1/-1;
+
+}
+.redesSociales{
+padding-bottom: 20px;
+
+}
+footer{
+    background-color: black;
+}
+.tituloRedes h2{
+    color: white;
+    padding: 10px;
+}
+
+.fa-youtube , .fa-square-instagram ,.fa-github{
+    color: white;
+    font-size: 40px;
+}
